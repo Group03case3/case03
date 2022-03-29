@@ -12,7 +12,7 @@ provider "azurerm" {
 }
 
 resource "azurerm_resource_group" "rg" {
-  name     = "RG_ABC_Group03"
+  name     = "RG_ABC_Gr03_20220329"
   location = "Korea Central"
 }
 resource "azurerm_app_service_plan" "app-plan" {
